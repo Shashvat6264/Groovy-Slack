@@ -1,4 +1,4 @@
-#Groovy-Slack[WIP]
+# Groovy-Slack[WIP]
 A Slack based website to create playlist of your favourite songs. 
 Use this app to make a playlist of your favourite songs or other commercial video links when entered in the Slack channel.
 
