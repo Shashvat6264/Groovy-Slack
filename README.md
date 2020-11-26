@@ -12,4 +12,4 @@ We have created a Django based API to accept POST request from Slack API which s
 The frontend is a ReactJS app which parses all the link entries from the API.
 
 ## To Contribute
-Join the Slack Channel to contribute.
+Join the [Slack](https://join.slack.com/t/newworkspace-gcm9095/shared_invite/zt-jfxca33a-N~LEfMnYEr0F3F5t~ILC2g) Channel to contribute.
