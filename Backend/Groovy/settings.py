@@ -25,7 +25,7 @@ SECRET_KEY = 'g-&b52149b&3jqn*sc^j&+lg=n4!yua^hjz)7=&+igmofdtl(v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fast-harbor-68028.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['fast-harbor-68028.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -80,12 +80,8 @@ WSGI_APPLICATION = 'Groovy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd5e0o5c4btqfqb',
-        'HOST': 'ec2-23-23-88-216.compute-1.amazonaws.com',
-        'PORT': 5432,
-        'USER': 'yidszrpkiugnej',
-        'PASSWORD': '2708cb0d59654711ecefe32fb4edc6ea377a2433d872417083a0386765141e23'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
