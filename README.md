@@ -5,7 +5,7 @@ Use this app to make a playlist of your favourite songs or other commercial vide
 ## How to use the app
 ![Example](Groovypic.png)
 
-Call your app with the link you want to add it to a playlist
+Call your app with the link you want to add to a playlist
 
 ## How it works
 We have created a Django based API to accept POST request from Slack API which stores the link in a database.
